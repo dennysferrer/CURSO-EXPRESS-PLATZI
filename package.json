@@ -1,0 +1,32 @@
+{
+  "name": "curso-express-platzi",
+  "version": "1.0.0",
+  "description": "Curso de Express de platzi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennysferrer/CURSO-EXPRESS-PLATZI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennysferrer/CURSO-EXPRESS-PLATZI/issues"
+  },
+  "homepage": "https://github.com/dennysferrer/CURSO-EXPRESS-PLATZI#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
